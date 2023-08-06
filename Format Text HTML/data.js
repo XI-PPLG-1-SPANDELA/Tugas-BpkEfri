@@ -2,6 +2,8 @@ const NamaSaya = "Adnan zainal"
 const kelas = "XI PPLG 1"
 const umur = '18'
 let teman = 'Fahjri dan andika'
+let guru = 'Bapak ShalehEfri Widhadbyo, S.Kom'
+const Teacher = 'Yuli Ristiyanto'
 
 function PerkenalanKelas(){
     if(kelas == 'XI PPLG 1'){
@@ -23,6 +25,11 @@ function GeneretBiodata(){
     console.log(`saya Berumur ${umur}`);
 }
 
+function guruSaya(){
+    console.log('Guru Saya Adaah ${guru}')
+    console.log('Saya juga memiliki idola, yaitu bapak ${Teacher}')
+}
+
 
 console.log(NamaSaya);
 console.log(kelas);
@@ -30,3 +37,4 @@ console.log(teman);
 
 GeneretBiodata()
 PerkenalanKelas()
+guruSaya()
