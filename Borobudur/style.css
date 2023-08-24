@@ -1,0 +1,51 @@
+body{
+    background-image: url(adsa.png);
+    background-size: full;
+    background-repeat: no-repeat;
+
+}
+
+.judul .h1{
+    text-size-adjust: 20px;
+    text-align: center;
+}
+.wisata {
+    background-color: blue;
+    color: aqua;
+}
+.judul {
+    text-align: center;
+    color: antiquewhite;
+}
+.pesona{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.garis {
+    height: 8px;
+    background-color: azure;
+    color: aqua;
+}
+
+.judul-wisata {
+    color: azure;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.klayar{
+    text-align: justify;
+    color: azure;
+    text-indent: 30px;
+    background-color: blue;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.paragraf-2 {
+    text-align: justify;
+
+}
